@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACAF9C671C62C3B800B663F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAF9C661C62C3B800B663F0 /* main.m */; };
+		ACAF9C6A1C62C3B800B663F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAF9C691C62C3B800B663F0 /* AppDelegate.m */; };
+		ACAF9C6D1C62C3B800B663F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAF9C6C1C62C3B800B663F0 /* ViewController.m */; };
+		ACAF9C701C62C3B800B663F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAF9C6E1C62C3B800B663F0 /* Main.storyboard */; };
+		ACAF9C721C62C3B800B663F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACAF9C711C62C3B800B663F0 /* Assets.xcassets */; };
+		ACAF9C751C62C3B800B663F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACAF9C731C62C3B800B663F0 /* LaunchScreen.storyboard */; };
+		ACAF9C801C62C3B800B663F0 /* LibsodiumIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAF9C7F1C62C3B800B663F0 /* LibsodiumIssueTests.m */; };
+		ACAF9C8B1C62C3B800B663F0 /* LibsodiumIssueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAF9C8A1C62C3B800B663F0 /* LibsodiumIssueUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACAF9C7C1C62C3B800B663F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAF9C5A1C62C3B800B663F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAF9C611C62C3B800B663F0;
+			remoteInfo = LibsodiumIssue;
+		};
+		ACAF9C871C62C3B800B663F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACAF9C5A1C62C3B800B663F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAF9C611C62C3B800B663F0;
+			remoteInfo = LibsodiumIssue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACAF9C621C62C3B800B663F0 /* LibsodiumIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibsodiumIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAF9C661C62C3B800B663F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACAF9C681C62C3B800B663F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACAF9C691C62C3B800B663F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACAF9C6B1C62C3B800B663F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACAF9C6C1C62C3B800B663F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACAF9C6F1C62C3B800B663F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACAF9C711C62C3B800B663F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACAF9C741C62C3B800B663F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACAF9C761C62C3B800B663F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAF9C7B1C62C3B800B663F0 /* LibsodiumIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibsodiumIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAF9C7F1C62C3B800B663F0 /* LibsodiumIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibsodiumIssueTests.m; sourceTree = "<group>"; };
+		ACAF9C811C62C3B800B663F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAF9C861C62C3B800B663F0 /* LibsodiumIssueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibsodiumIssueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAF9C8A1C62C3B800B663F0 /* LibsodiumIssueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibsodiumIssueUITests.m; sourceTree = "<group>"; };
+		ACAF9C8C1C62C3B800B663F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACAF9C5F1C62C3B800B663F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAF9C781C62C3B800B663F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAF9C831C62C3B800B663F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACAF9C591C62C3B800B663F0 = {
+			isa = PBXGroup;
+			children = (
+				ACAF9C641C62C3B800B663F0 /* LibsodiumIssue */,
+				ACAF9C7E1C62C3B800B663F0 /* LibsodiumIssueTests */,
+				ACAF9C891C62C3B800B663F0 /* LibsodiumIssueUITests */,
+				ACAF9C631C62C3B800B663F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACAF9C631C62C3B800B663F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACAF9C621C62C3B800B663F0 /* LibsodiumIssue.app */,
+				ACAF9C7B1C62C3B800B663F0 /* LibsodiumIssueTests.xctest */,
+				ACAF9C861C62C3B800B663F0 /* LibsodiumIssueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACAF9C641C62C3B800B663F0 /* LibsodiumIssue */ = {
+			isa = PBXGroup;
+			children = (
+				ACAF9C681C62C3B800B663F0 /* AppDelegate.h */,
+				ACAF9C691C62C3B800B663F0 /* AppDelegate.m */,
+				ACAF9C6B1C62C3B800B663F0 /* ViewController.h */,
+				ACAF9C6C1C62C3B800B663F0 /* ViewController.m */,
+				ACAF9C6E1C62C3B800B663F0 /* Main.storyboard */,
+				ACAF9C711C62C3B800B663F0 /* Assets.xcassets */,
+				ACAF9C731C62C3B800B663F0 /* LaunchScreen.storyboard */,
+				ACAF9C761C62C3B800B663F0 /* Info.plist */,
+				ACAF9C651C62C3B800B663F0 /* Supporting Files */,
+			);
+			path = LibsodiumIssue;
+			sourceTree = "<group>";
+		};
+		ACAF9C651C62C3B800B663F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACAF9C661C62C3B800B663F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACAF9C7E1C62C3B800B663F0 /* LibsodiumIssueTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACAF9C7F1C62C3B800B663F0 /* LibsodiumIssueTests.m */,
+				ACAF9C811C62C3B800B663F0 /* Info.plist */,
+			);
+			path = LibsodiumIssueTests;
+			sourceTree = "<group>";
+		};
+		ACAF9C891C62C3B800B663F0 /* LibsodiumIssueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACAF9C8A1C62C3B800B663F0 /* LibsodiumIssueUITests.m */,
+				ACAF9C8C1C62C3B800B663F0 /* Info.plist */,
+			);
+			path = LibsodiumIssueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACAF9C611C62C3B800B663F0 /* LibsodiumIssue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAF9C8F1C62C3B800B663F0 /* Build configuration list for PBXNativeTarget "LibsodiumIssue" */;
+			buildPhases = (
+				ACAF9C5E1C62C3B800B663F0 /* Sources */,
+				ACAF9C5F1C62C3B800B663F0 /* Frameworks */,
+				ACAF9C601C62C3B800B663F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibsodiumIssue;
+			productName = LibsodiumIssue;
+			productReference = ACAF9C621C62C3B800B663F0 /* LibsodiumIssue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACAF9C7A1C62C3B800B663F0 /* LibsodiumIssueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAF9C921C62C3B800B663F0 /* Build configuration list for PBXNativeTarget "LibsodiumIssueTests" */;
+			buildPhases = (
+				ACAF9C771C62C3B800B663F0 /* Sources */,
+				ACAF9C781C62C3B800B663F0 /* Frameworks */,
+				ACAF9C791C62C3B800B663F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAF9C7D1C62C3B800B663F0 /* PBXTargetDependency */,
+			);
+			name = LibsodiumIssueTests;
+			productName = LibsodiumIssueTests;
+			productReference = ACAF9C7B1C62C3B800B663F0 /* LibsodiumIssueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACAF9C851C62C3B800B663F0 /* LibsodiumIssueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACAF9C951C62C3B800B663F0 /* Build configuration list for PBXNativeTarget "LibsodiumIssueUITests" */;
+			buildPhases = (
+				ACAF9C821C62C3B800B663F0 /* Sources */,
+				ACAF9C831C62C3B800B663F0 /* Frameworks */,
+				ACAF9C841C62C3B800B663F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACAF9C881C62C3B800B663F0 /* PBXTargetDependency */,
+			);
+			name = LibsodiumIssueUITests;
+			productName = LibsodiumIssueUITests;
+			productReference = ACAF9C861C62C3B800B663F0 /* LibsodiumIssueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACAF9C5A1C62C3B800B663F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = gioenn;
+				TargetAttributes = {
+					ACAF9C611C62C3B800B663F0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ACAF9C7A1C62C3B800B663F0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ACAF9C611C62C3B800B663F0;
+					};
+					ACAF9C851C62C3B800B663F0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ACAF9C611C62C3B800B663F0;
+					};
+				};
+			};
+			buildConfigurationList = ACAF9C5D1C62C3B800B663F0 /* Build configuration list for PBXProject "LibsodiumIssue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACAF9C591C62C3B800B663F0;
+			productRefGroup = ACAF9C631C62C3B800B663F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACAF9C611C62C3B800B663F0 /* LibsodiumIssue */,
+				ACAF9C7A1C62C3B800B663F0 /* LibsodiumIssueTests */,
+				ACAF9C851C62C3B800B663F0 /* LibsodiumIssueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACAF9C601C62C3B800B663F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAF9C751C62C3B800B663F0 /* LaunchScreen.storyboard in Resources */,
+				ACAF9C721C62C3B800B663F0 /* Assets.xcassets in Resources */,
+				ACAF9C701C62C3B800B663F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAF9C791C62C3B800B663F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAF9C841C62C3B800B663F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACAF9C5E1C62C3B800B663F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAF9C6D1C62C3B800B663F0 /* ViewController.m in Sources */,
+				ACAF9C6A1C62C3B800B663F0 /* AppDelegate.m in Sources */,
+				ACAF9C671C62C3B800B663F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAF9C771C62C3B800B663F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAF9C801C62C3B800B663F0 /* LibsodiumIssueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAF9C821C62C3B800B663F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAF9C8B1C62C3B800B663F0 /* LibsodiumIssueUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACAF9C7D1C62C3B800B663F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAF9C611C62C3B800B663F0 /* LibsodiumIssue */;
+			targetProxy = ACAF9C7C1C62C3B800B663F0 /* PBXContainerItemProxy */;
+		};
+		ACAF9C881C62C3B800B663F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACAF9C611C62C3B800B663F0 /* LibsodiumIssue */;
+			targetProxy = ACAF9C871C62C3B800B663F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACAF9C6E1C62C3B800B663F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAF9C6F1C62C3B800B663F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACAF9C731C62C3B800B663F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACAF9C741C62C3B800B663F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACAF9C8D1C62C3B800B663F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACAF9C8E1C62C3B800B663F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACAF9C901C62C3B800B663F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LibsodiumIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gioenn.LibsodiumIssue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACAF9C911C62C3B800B663F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LibsodiumIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gioenn.LibsodiumIssue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACAF9C931C62C3B800B663F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LibsodiumIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gioenn.LibsodiumIssueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LibsodiumIssue.app/LibsodiumIssue";
+			};
+			name = Debug;
+		};
+		ACAF9C941C62C3B800B663F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LibsodiumIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gioenn.LibsodiumIssueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LibsodiumIssue.app/LibsodiumIssue";
+			};
+			name = Release;
+		};
+		ACAF9C961C62C3B800B663F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LibsodiumIssueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gioenn.LibsodiumIssueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LibsodiumIssue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACAF9C971C62C3B800B663F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LibsodiumIssueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gioenn.LibsodiumIssueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LibsodiumIssue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACAF9C5D1C62C3B800B663F0 /* Build configuration list for PBXProject "LibsodiumIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAF9C8D1C62C3B800B663F0 /* Debug */,
+				ACAF9C8E1C62C3B800B663F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACAF9C8F1C62C3B800B663F0 /* Build configuration list for PBXNativeTarget "LibsodiumIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAF9C901C62C3B800B663F0 /* Debug */,
+				ACAF9C911C62C3B800B663F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACAF9C921C62C3B800B663F0 /* Build configuration list for PBXNativeTarget "LibsodiumIssueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAF9C931C62C3B800B663F0 /* Debug */,
+				ACAF9C941C62C3B800B663F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACAF9C951C62C3B800B663F0 /* Build configuration list for PBXNativeTarget "LibsodiumIssueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACAF9C961C62C3B800B663F0 /* Debug */,
+				ACAF9C971C62C3B800B663F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACAF9C5A1C62C3B800B663F0 /* Project object */;
+}
